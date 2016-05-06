@@ -1,0 +1,1 @@
+web: gunicorn kiaitribeapp.wsgi --log-file -
