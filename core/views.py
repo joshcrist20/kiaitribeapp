@@ -9,5 +9,5 @@ class LandingView(TemplateView):
 
 class LocationListView(ListView):
     model = coremodels.Location
-    template_name = 'base/theme.html'
+    template_name = 'location/list.html'
 
